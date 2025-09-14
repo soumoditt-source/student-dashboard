@@ -1,19 +1,17 @@
-# student-dashboard
-“Mini Data Analytics project using Python &amp; SQL (student dataset)”
-# Student Performance Dashboard (Python + SQL)
+# Student Data Analysis
 
-A mini data analytics project demonstrating data cleaning, aggregation, and visualization.
+This project analyzes student performance data (scores & attendance) using **Pandas** and **Matplotlib**.
 
-## Steps
-1. Load dataset (CSV).
-2. Clean missing values.
-3. Perform aggregations (SQL-style group by).
-4. Create visualizations (Matplotlib).
+## Features
+- Loads student dataset from CSV
+- Cleans and preprocesses data
+- Computes average scores by subject and attendance
+- Finds top performers
+- Generates plots (`plots/` folder)
+- Saves insights to `INSIGHTS.txt`
 
-## Example Insights
-- Attendance below 75% correlates with ~40% lower scores.
-- Focused study groups can improve passing rate by ~8%.
-
-## Tech Stack
-- Python (Pandas, NumPy, Matplotlib)
-- SQL (sample queries in README)
+## Run Instructions
+```bash
+pip install -r requirements.txt
+python analyze.py
+```
